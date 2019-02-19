@@ -1,0 +1,28 @@
+@import 'base';
+
+.app {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  .app-body{
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    & > aside {
+      width: 300px;
+      min-height: 100%;
+      height: 100%;
+      padding: $containers-padding;
+    }
+  }
+}
+
+.main-content {
+  padding: $containers-padding;
+  position: relative;
+  overflow-y: scroll;
+  min-height: 100%;
+  flex:1;
+  background-color: $bg-color;
+}
