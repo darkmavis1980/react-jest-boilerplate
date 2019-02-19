@@ -50,4 +50,4 @@ Running the following command:
 npm build
 ```
 
-It will generate the dist folder with the minified code and vendor packages.
+It will generate the `dist` folder with the minified code and vendor packages.
