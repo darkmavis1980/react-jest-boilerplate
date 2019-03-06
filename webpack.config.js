@@ -31,7 +31,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     historyApiFallback: {
-      index: "/main.html"
+      index: "/index.html"
     }
   },
   watchOptions: {
