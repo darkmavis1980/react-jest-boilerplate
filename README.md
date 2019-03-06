@@ -83,6 +83,62 @@ You can also pass additional env variables, but you need to add them into the we
 }
 ```
 
+---
+
+## Docker
+
+Build the container first:
+
+```bash
+docker build -t react-boilerplate .
+```
+
+Run the container:
+
+```bash
+docker run --name react --rm -d -p 8080:80 react-boilerplate
+```
+
+> Note: the `--rm` flag automatically removes the container when it exits, so you just need to stop it and not to remove it manually, more info [here](https://docs.docker.com/engine/reference/run/#clean-up---rm)
+
+Use the bash shell of the container:
+
+```bash
+docker exec -t -i react /bin/bash
+```
+
+Stop the container:
+
+```bash
+docker stop react
+```
+
+#### Good to know
+
+Get the list of the containers:
+
+```bash
+# Get the list of the containers for the current project
+docker ps
+
+# Get the list of all containers
+docker ps -a
+
+# Get only the last container created
+docker ps -al
+```
+
+Remove the container for the project:
+
+```bash
+# show all the container to find the <CONTAINER ID>
+docker ps -a
+# use the container id <CONTAINER ID> for the pricing-ui to remove it from the active containers
+docker rm <CONTAINER ID>
+```
+
+---
+
 ## React router on a webserver
 
 While working on development environment the fallback for the react router is taken care by the `webpack-dev-server`, this means that when you refresh a page, it knows that it has to reopen the `index.html` page and tell React to route to a specific component.

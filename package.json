@@ -16,6 +16,11 @@
   "keywords": [
     "react"
   ],
+  "homepage": "https://github.com/darkmavis1980/react-jest-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkmavis1980/react-jest-boilerplate.git"
+  },
   "author": "Alessio Michelini",
   "license": "ISC",
   "devDependencies": {
