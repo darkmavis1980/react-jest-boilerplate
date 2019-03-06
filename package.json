@@ -1,6 +1,6 @@
 {
   "name": "react-boilerplate",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Simple boilerplate for React with Jest support",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,11 @@
   "keywords": [
     "react"
   ],
+  "homepage": "https://github.com/darkmavis1980/react-jest-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkmavis1980/react-jest-boilerplate.git"
+  },
   "author": "Alessio Michelini",
   "license": "ISC",
   "devDependencies": {
