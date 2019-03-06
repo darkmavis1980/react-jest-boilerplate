@@ -73,6 +73,12 @@ module.exports = {
       filename: "index.html",
       chunks: ["vendor", "app"],
       template: path.join(__dirname, "public", "index.html")
+    }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
+        API_PATH: JSON.stringify(process.env.API_PATH)
+      },
     })
   ]
 };

@@ -51,3 +51,100 @@ npm build
 ```
 
 It will generate the `dist` folder with the minified code and vendor packages.
+
+### Configuration
+
+In case you need to store an endpoint for your APIs, you can either copy and rename the `config/config.sample.js` file into `config/config.js` and then import that in the React. Otherwise you can use the environmental variable `API_PATH` and read it with `process.env.API_PATH` and then use that instead (this variable is passed by Webpack when it builds the code). To do so you might want to change your npm scripts to include that at least for local development, so for example:
+
+```javascript
+//package.json
+"scripts": {
+    "start": "NODE_ENV=development API_PATH=http://localhost:8080 ./node_modules/webpack/bin/webpack.js --mode development",
+    "build": "NODE_ENV=production API_PATH=https://prod.someserver.com ./node_modules/webpack/bin/webpack.js --mode production",
+    ...
+}
+
+```
+
+You can also pass additional env variables, but you need to add them into the webpack plugin that shares the env variables, for example:
+
+```javascript
+//webpack.config.js
+{
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
+        API_PATH: JSON.stringify(process.env.API_PATH),
+        CUSTOM_VAR: JSON.stringify(process.env.CUSTOM_VAR),
+      },
+    })
+  ]
+}
+```
+
+## React router on a webserver
+
+While working on development environment the fallback for the react router is taken care by the `webpack-dev-server`, this means that when you refresh a page, it knows that it has to reopen the `index.html` page and tell React to route to a specific component.
+Unfortunately this doesn't work well with Nginx or Apache, or at least it doesn't work until you get out of the react routing domain, like refreshing a page or doing a directly link like with an anchor (`<a>`) tag.
+For example if you have a route called `/my-data`, this is an internal route for React, but the web server doesn't know that, and if you refresh, it will try to look for a rewrite rule and subsequentally check if it's a folder on the server, and after all it will return a 404 error because nothing can be resolved.
+To make it work you need to tell to the web servers that when it tries to serve a route that the server itself is not managing, to fallback to the main html page.
+
+> The same logic can be applied if you use S3 as web hosting.
+
+Here a couple of very generic formulas for the usual web servers:
+
+### Nginx
+
+```
+server {
+  listen 80 default_server;
+  server_name /var/www/example.com;
+
+  root /var/www/example.com;
+  index index.html index.htm;
+
+  location ~* \.(?:manifest|appcache|html?|xml|json)$ {
+    expires -1;
+    # access_log logs/static.log; # I don't usually include a static log
+  }
+
+  location ~* \.(?:css|js)$ {
+    try_files $uri =404;
+    expires 1y;
+    access_log off;
+    add_header Cache-Control "public";
+  }
+
+  # Any route containing a file extension (e.g. /devicesfile.js)
+  location ~ ^.+\..+$ {
+    try_files $uri =404;
+  }
+
+  # Any route that doesn't have a file extension (e.g. /devices)
+  location / {
+    try_files $uri $uri/ /index.html;
+  }
+}
+```
+
+### Apache 2
+
+```
+<VirtualHost *:8080>
+  ServerName example.com
+  DocumentRoot /var/www/httpd/example.com
+
+  <Directory "/var/www/httpd/example.com">
+    ...
+
+    RewriteEngine on
+    # Don't rewrite files or directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+    # Rewrite everything else to index.html to allow html5 state links
+    RewriteRule ^ index.html [L]
+  </Directory>
+</VirtualHost>
+```
