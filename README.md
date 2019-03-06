@@ -99,6 +99,12 @@ Run the container:
 docker run --name react --rm -d -p 8080:80 react-boilerplate
 ```
 
+Run the container and mount a volume:
+
+```bash
+docker run -v /host/directory:/container/directory --name react --rm -d -p 8080:80 react-boilerplate
+```
+
 > Note: the `--rm` flag automatically removes the container when it exits, so you just need to stop it and not to remove it manually, more info [here](https://docs.docker.com/engine/reference/run/#clean-up---rm)
 
 Use the bash shell of the container:
@@ -136,6 +142,8 @@ docker ps -a
 # use the container id <CONTAINER ID> for the pricing-ui to remove it from the active containers
 docker rm <CONTAINER ID>
 ```
+
+
 
 ---
 
