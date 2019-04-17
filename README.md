@@ -143,8 +143,6 @@ docker ps -a
 docker rm <CONTAINER ID>
 ```
 
-
-
 ---
 
 ## React router on a webserver
@@ -212,3 +210,7 @@ server {
   </Directory>
 </VirtualHost>
 ```
+
+## Changelog
+
+The changelog is maintained with this library: [git-chglog](https://github.com/git-chglog/git-chglog)

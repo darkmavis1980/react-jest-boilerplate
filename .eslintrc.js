@@ -16,13 +16,15 @@ module.exports = {
   "globals": {
     window: true,
     document: true,
-    jQuery: true,
-    $: true,
-    moment: true,
-    _: true,
+    jQuery: false,
+    $: false,
+    location: true,
+    moment: false,
+    _: false,
     P5: true,
     MODULE_MAP: true,
     System: true,
-    T: true
+    T: true,
+    localStorage: true
   }
 };
