@@ -1,4 +1,16 @@
 
+<a name="v0.4.0"></a>
+## [v0.4.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.3.4...v0.4.0) (2019-04-17)
+
+### Conformed
+
+* Conformed code to ESLint standards Added missing libraries Updated eslintrc configuration Added Changelog
+
+### Pull Requests
+
+* Merge pull request [#6](https://github.com/darkmavis1980/react-jest-boilerplate/issues/6) from darkmavis1980/bugfix/fix-eslint-integration
+
+
 <a name="v0.3.4"></a>
 ## [v0.3.4](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.3.3...v0.3.4) (2019-04-16)
 
