@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
+
 const devMode = process.env.NODE_ENV !== "production";
 const pkg = require("./package.json");
 
@@ -29,7 +30,6 @@ module.exports = {
     }
   },
   devServer: {
-    historyApiFallback: true,
     historyApiFallback: {
       index: "/index.html"
     }

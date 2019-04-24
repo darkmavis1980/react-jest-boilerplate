@@ -1,17 +1,18 @@
 {
   "name": "react-boilerplate",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Simple boilerplate for React with Jest support",
   "main": "index.js",
   "scripts": {
-    "start": "export NODE_ENV=development; webpack --mode development",
-    "build": "export NODE_ENV=production; webpack --mode production",
-    "start:watch": "export NODE_ENV=development; webpack --mode development --watch",
-    "start:dev": "export NODE_ENV=development; webpack-dev-server --mode development",
+    "start": "./node_modules/webpack/bin/webpack.js --mode development",
+    "build": "./node_modules/webpack/bin/webpack.js --mode production",
+    "start:watch": "./node_modules/webpack/bin/webpack.js --mode development --watch",
+    "start:dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js  --mode development",
     "test": "./node_modules/jest/bin/jest.js --env=jsdom",
     "test:watch": "./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
     "test:watch:log": "TERM=dumb ./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
-    "coverage": "npm test -- --coverage"
+    "coverage": "npm test -- --coverage",
+    "eslint": "eslint ./src"
   },
   "keywords": [
     "react"

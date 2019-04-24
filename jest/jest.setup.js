@@ -10,7 +10,7 @@ global.render = render;
 global.renderer = renderer;
 global.mount = mount;
 global.jsdom = jsdom;
-global.location = {}
+global.location = {};
 global.document = {};
 
 global.window = Object.create(window);
