@@ -1,4 +1,38 @@
 
+<a name="v0.5.0"></a>
+## [v0.5.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.4.2...v0.5.0) (2019-05-07)
+
+### Set
+
+* Set babel to use the current version of Node to avoid issues with Jest and async/await Updated dependencies, node-sass now supports Node.js 12
+
+### Updated
+
+* Updated package-lock.json
+* Updated eslintrc to fix the issue with react version Updated dependencies Minor formatting cleanup for the jest.config.js file Added webpack-bundle-analyzer to analyze the bundler
+
+### Pull Requests
+
+* Merge pull request [#7](https://github.com/darkmavis1980/react-jest-boilerplate/issues/7) from darkmavis1980/bugfix/fix-issue-with-eslint
+
+
+<a name="v0.4.2"></a>
+## [v0.4.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.4.1...v0.4.2) (2019-04-24)
+
+### Minor
+
+* Minor cleanups
+
+
+<a name="v0.4.1"></a>
+## [v0.4.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.4.0...v0.4.1) (2019-04-24)
+
+### Updated
+
+* Updated webpack-cli
+* Updated changelog
+
+
 <a name="v0.4.0"></a>
 ## [v0.4.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.3.4...v0.4.0) (2019-04-17)
 
