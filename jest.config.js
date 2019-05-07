@@ -21,9 +21,9 @@ module.exports = {
   // collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-    collectCoverageFrom: [
-        "<rootDir>/src/**/*.js"
-    ],
+  collectCoverageFrom: [
+    "<rootDir>/src/**/*.js"
+  ],
 
   // The directory where Jest should output its coverage files
   coverageDirectory: "coverage",
@@ -35,15 +35,19 @@ module.exports = {
 
   // A list of reporter names that Jest uses when writing coverage reports
   coverageReporters: [
-      "json",
-      "text",
-      "lcov",
-      "clover",
-      "cobertura"
+    "json",
+    "text",
+    "lcov",
+    "clover",
+    "cobertura"
   ],
 
   // An object that configures minimum threshold enforcement for coverage results
-   coverageThreshold: {"global": {"branches": 35, "functions": 40, "lines": 40, "statements": 40}},
+  coverageThreshold: {
+    global: {
+      branches: 50, functions: 40, lines: 40, statements: 40
+    }
+  },
 
   // Make calling deprecated APIs throw helpful error messages
   // errorOnDeprecated: false,
@@ -74,13 +78,13 @@ module.exports = {
 
   // A map from regular expressions to module names that allow to stub out resources with a single module
   moduleNameMapper: {
-      "\\.(css|less|css!)$": "<rootDir>/jest/empty-module.js"
+    "\\.(css|less|css!)$": "<rootDir>/jest/empty-module.js"
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   // modulePathIgnorePatterns: [],
   modulePathIgnorePatterns: [
-      "<rootDir>/node_modules/", "<rootDir>/dist/*"
+    "<rootDir>/node_modules/", "<rootDir>/dist/*"
   ],
 
   // Activates notifications for test results
@@ -123,7 +127,7 @@ module.exports = {
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
   setupFiles: [
-      "./jest/jest.setup.js"
+    "./jest/jest.setup.js"
   ],
 
   // The path to a module that runs some code to configure or set up the testing framework before each test
@@ -143,8 +147,8 @@ module.exports = {
 
   // The glob patterns Jest uses to detect test files
   testMatch: [
-      "**/__tests__/**/*.js?(x)",
-      "<rootDir>/src/**/?(*.)+(spec|test).js?(x)"
+    "**/__tests__/**/*.js?(x)",
+    "<rootDir>/src/**/?(*.)+(spec|test).js?(x)"
   ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
@@ -169,10 +173,10 @@ module.exports = {
 
   // A map from regular expressions to paths to transformers
   transform: {
-      '.+\\.(css|css!|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
-        'jest-transform-stub',
-      '^.+\\.(js|jsx)?$': 'babel-jest'
-    },
+    '.+\\.(css|css!|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
+    'jest-transform-stub',
+    '^.+\\.(js|jsx)?$': 'babel-jest'
+  },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   transformIgnorePatterns: [
