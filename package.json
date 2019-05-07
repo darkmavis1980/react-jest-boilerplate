@@ -1,6 +1,6 @@
 {
   "name": "react-boilerplate",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "Simple boilerplate for React with Jest support",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "test:watch": "./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
     "test:watch:log": "TERM=dumb ./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
     "coverage": "npm test -- --coverage",
-    "eslint": "eslint ./src"
+    "eslint": "eslint ./src",
+    "profile": "./node_modules/webpack/bin/webpack.js --profile --json > stats.json",
+    "profile:analyze": "./node_modules/.bin/webpack-bundle-analyzer ./stats.json"
   },
   "keywords": [
     "react"
@@ -30,7 +32,7 @@
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
-    "clean-webpack-plugin": "^2.0.1",
+    "clean-webpack-plugin": "^2.0.2",
     "css-loader": "^2.1.1",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.12.1",
@@ -38,11 +40,11 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react": "^7.13.0",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^24.7.1",
-    "jest-cli": "^24.7.1",
-    "jest-environment-jsdom": "^24.7.1",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "jest-environment-jsdom": "^24.8.0",
     "jest-transform-stub": "^2.0.0",
     "mini-css-extract-plugin": "^0.6.0",
     "node-sass": "^4.12.0",
@@ -51,7 +53,8 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {

@@ -3,7 +3,16 @@ module.exports = {
     "airbnb-base",
     "plugin:react/recommended"
   ],
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "version": "16"
+    }
+  },
   "rules": {
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "max-len": [1, 200],
     "no-console": 1,
     "new-cap": 0,
@@ -13,17 +22,21 @@ module.exports = {
     "indent": ["warn", 2],
     "arrow-parens": ["error", "as-needed"]
   },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "globals": {
     window: true,
     document: true,
     jQuery: false,
     $: false,
-    location: true,
     moment: false,
+    location: true,
     _: false,
-    P5: true,
     MODULE_MAP: true,
-    System: true,
+    System: false,
     T: true,
     localStorage: true
   }
