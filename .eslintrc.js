@@ -20,7 +20,8 @@ module.exports = {
     "object-curly-spacing": 0,
     "quotes": 0,
     "indent": ["warn", 2],
-    "arrow-parens": ["error", "as-needed"]
+    "arrow-parens": ["error", "as-needed"],
+    "class-methods-use-this": 0
   },
   "parserOptions": {
     "ecmaFeatures": {
