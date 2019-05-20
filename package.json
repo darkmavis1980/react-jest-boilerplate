@@ -1,6 +1,6 @@
 {
   "name": "react-boilerplate",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Simple boilerplate for React with Jest support",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "clean-webpack-plugin": "^2.0.2",
     "css-loader": "^2.1.1",
     "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.13.0",
+    "enzyme-adapter-react-16": "^1.13.1",
     "enzyme-to-json": "^3.3.5",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -55,7 +55,7 @@
     "webpack": "^4.31.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.3.1"
+    "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
