@@ -1,4 +1,14 @@
 
+<a name="v0.5.2"></a>
+## [v0.5.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.5.0...v0.5.2) (2019-05-20)
+
+### Updated
+
+* Updated dependencies
+* Updated dependencies Set option class-methods-use-this in eslint to false
+* Updated changelog
+
+
 <a name="v0.5.0"></a>
 ## [v0.5.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.4.2...v0.5.0) (2019-05-07)
 
