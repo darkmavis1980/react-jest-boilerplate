@@ -1,4 +1,56 @@
 
+<a name="v0.7.3"></a>
+## [v0.7.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.2...v0.7.3) (2019-10-08)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.7.2"></a>
+## [v0.7.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.1...v0.7.2) (2019-09-24)
+
+### Fixed
+
+* Fixed compatibility issue with sass-loader 8.0.0
+
+
+<a name="v0.7.1"></a>
+## [v0.7.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.0...v0.7.1) (2019-09-23)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.7.0"></a>
+## [v0.7.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.5.4...v0.7.0) (2019-09-12)
+
+### Updated
+
+* Updated dependencies Renamed task start:dev to just dev
+* Updated dependencies
+* Updated dependencies Added [@babel](https://github.com/babel)/plugin-transform-runtime
+* Updated dependencies
+
+
+<a name="v0.5.4"></a>
+## [v0.5.4](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.5.3...v0.5.4) (2019-07-04)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.5.3"></a>
+## [v0.5.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.5.2...v0.5.3) (2019-05-31)
+
+### Updated
+
+* Updated changelog
+* Updated dependencies Fixed issue with CleanWebpackPlugin
+
+
 <a name="v0.5.2"></a>
 ## [v0.5.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.5.0...v0.5.2) (2019-05-20)
 
