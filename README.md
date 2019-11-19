@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/darkmavis1980/react-jest-boilerplate.svg?branch=master)](https://travis-ci.org/darkmavis1980/react-jest-boilerplate)
+
 # Simple boilerplate with React, Webpack, Jest and Sass support
 
 This is a very basic boilerplate with support for:
