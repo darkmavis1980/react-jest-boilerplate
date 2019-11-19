@@ -1,6 +1,6 @@
 {
   "name": "react-boilerplate",
-  "version": "0.7.7",
+  "version": "0.8.0",
   "description": "Simple boilerplate for React with Jest support",
   "main": "index.js",
   "scripts": {
