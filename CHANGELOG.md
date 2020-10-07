@@ -1,4 +1,161 @@
 
+<a name="v0.9.2"></a>
+## [v0.9.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.9.1...v0.9.2) (2020-10-07)
+
+### Updated
+
+* Updated dependencies to latest version
+
+
+<a name="v0.9.1"></a>
+## [v0.9.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.9.0...v0.9.1) (2020-09-16)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.9.0"></a>
+## [v0.9.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.9...v0.9.0) (2020-08-11)
+
+### Bump
+
+* Bump lodash from 4.17.14 to 4.17.19
+
+### Updated
+
+* Updated dependencies Migrated to use latest version of sass-loader Removed node-sass in favour of sass (dart-sass)
+
+### Pull Requests
+
+* Merge pull request [#11](https://github.com/darkmavis1980/react-jest-boilerplate/issues/11) from darkmavis1980/dependabot/npm_and_yarn/lodash-4.17.19
+
+
+<a name="v0.8.9"></a>
+## [v0.8.9](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.8...v0.8.9) (2020-07-02)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.8"></a>
+## [v0.8.8](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.7...v0.8.8) (2020-06-12)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.7"></a>
+## [v0.8.7](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.6...v0.8.7) (2020-04-29)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.6"></a>
+## [v0.8.6](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.5...v0.8.6) (2020-03-27)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.5"></a>
+## [v0.8.5](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.4...v0.8.5) (2020-02-06)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.4"></a>
+## [v0.8.4](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.3...v0.8.4) (2020-01-30)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.3"></a>
+## [v0.8.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.2...v0.8.3) (2020-01-20)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.2"></a>
+## [v0.8.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.1...v0.8.2) (2019-12-09)
+
+### Update
+
+* Update dependencies
+
+
+<a name="v0.8.1"></a>
+## [v0.8.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.8.0...v0.8.1) (2019-12-02)
+
+### Added
+
+* Added travisci badge
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.8.0"></a>
+## [v0.8.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.7...v0.8.0) (2019-11-19)
+
+### Added
+
+* Added travis ci configuration
+
+### Bumped
+
+* Bumped version to 0.8.0
+
+### Pull Requests
+
+* Merge pull request [#8](https://github.com/darkmavis1980/react-jest-boilerplate/issues/8) from darkmavis1980/feature/add-travis-ci
+
+
+<a name="v0.7.7"></a>
+## [v0.7.7](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.6...v0.7.7) (2019-11-19)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.7.6"></a>
+## [v0.7.6](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.5...v0.7.6) (2019-11-08)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.7.5"></a>
+## [v0.7.5](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.4...v0.7.5) (2019-10-23)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.7.4"></a>
+## [v0.7.4](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.3...v0.7.4) (2019-10-16)
+
+### Updated
+
+* Updated dependencies
+* Updated changelog
+
+
 <a name="v0.7.3"></a>
 ## [v0.7.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.7.2...v0.7.3) (2019-10-08)
 
