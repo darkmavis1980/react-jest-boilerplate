@@ -1,4 +1,13 @@
 
+<a name="v0.9.3"></a>
+## [v0.9.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.9.2...v0.9.3) (2020-12-08)
+
+### Updated
+
+* Updated dependencies
+* Updated changelog
+
+
 <a name="v0.9.2"></a>
 ## [v0.9.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.9.1...v0.9.2) (2020-10-07)
 
