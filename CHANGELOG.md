@@ -1,4 +1,25 @@
 
+<a name="v0.10.0"></a>
+## [v0.10.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.9.3...v0.10.0) (2020-12-18)
+
+### Added
+
+* Added github action configuration
+
+### Removed
+
+* Removed travis-ci configuration
+
+### Updated
+
+* Updated webpack to major version 5.11.0 Updated react to major version 17.0.1
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#14](https://github.com/darkmavis1980/react-jest-boilerplate/issues/14) from darkmavis1980/feature/remove-travis-add-github-actions
+
+
 <a name="v0.9.3"></a>
 ## [v0.9.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.9.2...v0.9.3) (2020-12-08)
 
