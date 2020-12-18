@@ -4,10 +4,10 @@
 
 This is a very basic boilerplate with support for:
 
-* ReactJS
+* React 17
 * React Router
 * Jest & Enzyme (unit tests)
-* Webpack 4 (module bundler)
+* Webpack 5 (module bundler)
 * Babel 7+
 * ESLint with Airbnb standards
 
