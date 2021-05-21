@@ -75,11 +75,9 @@ You can also pass additional env variables, but you need to add them into the we
 {
   plugins: [
     new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
-        API_PATH: JSON.stringify(process.env.API_PATH),
-        CUSTOM_VAR: JSON.stringify(process.env.CUSTOM_VAR),
-      },
+      'process.env.NODE_ENV': JSON.stringify(nodeEnv),
+      'process.env.API_PATH': JSON.stringify(process.env.API_PATH),
+      'process.env.CUSTOM_VAR': JSON.stringify(process.env.CUSTOM_VAR)
     })
   ]
 }
