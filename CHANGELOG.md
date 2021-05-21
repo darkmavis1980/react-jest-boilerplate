@@ -1,4 +1,30 @@
 
+<a name="v0.10.2"></a>
+## [v0.10.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.10.1...v0.10.2) (2021-05-21)
+
+### Fixed
+
+* Fixed audit
+
+### Updated
+
+* Updated dependencies Fixed issue with definePlugin
+
+### Pull Requests
+
+* Merge pull request [#15](https://github.com/darkmavis1980/react-jest-boilerplate/issues/15) from darkmavis1980/bugfix/fix-issue-with-defineplugin
+
+
+<a name="v0.10.1"></a>
+## [v0.10.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.10.0...v0.10.1) (2021-04-03)
+
+### Updated
+
+* Updated dependencies
+* Updated readme with newer versions
+* Updated changelog
+
+
 <a name="v0.10.0"></a>
 ## [v0.10.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.9.3...v0.10.0) (2020-12-18)
 
