@@ -4,7 +4,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-const devMode = process.env.NODE_ENV !== "production";
+const {
+  NODE_ENV: nodeEnv = 'development'
+} = process.env;
+const devMode = nodeEnv !== "production";
 const pkg = require("./package.json");
 
 module.exports = {
@@ -77,10 +80,8 @@ module.exports = {
       template: path.join(__dirname, "public", "index.html")
     }),
     new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
-        API_PATH: JSON.stringify(process.env.API_PATH)
-      },
+      'process.env.NODE_ENV': JSON.stringify(nodeEnv),
+      'process.env.API_PATH': JSON.stringify(process.env.API_PATH)
     })
   ]
 };
