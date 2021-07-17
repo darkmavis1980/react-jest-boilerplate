@@ -1,5 +1,5 @@
 import Enzyme, { shallow, render, mount } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import jsdom from 'jest-environment-jsdom';
 import renderer from 'react-test-renderer';
 // React 16 Enzyme adapter
