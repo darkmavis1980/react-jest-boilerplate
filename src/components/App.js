@@ -1,19 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import routes from "../config/routes";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Home/Home';
 
 import "../styles/main.scss";
 
 const App = () => (
-  <div className="app">
-    <Router>
+  <BrowserRouter>
+    <div className="app">
       <div className="app-body">
         <div className="main-content">
-          {routes.map((route, i) => <Route key={i} {...route} />)}
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
         </div>
       </div>
-    </Router>
-  </div>
+    </div>
+  </BrowserRouter>
 );
 
 export default App;
