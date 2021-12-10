@@ -1,4 +1,49 @@
 
+<a name="v0.11.0"></a>
+## [v0.11.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.10.5...v0.11.0) (2021-12-10)
+
+### Simplified
+
+* Simplified code Upgraded to react router 6
+
+### Pull Requests
+
+* Merge pull request [#18](https://github.com/darkmavis1980/react-jest-boilerplate/issues/18) from darkmavis1980/bugfix/update-dependencies
+
+
+<a name="v0.10.5"></a>
+## [v0.10.5](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.10.4...v0.10.5) (2021-10-15)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.10.4"></a>
+## [v0.10.4](https://github.com/darkmavis1980/react-jest-boilerplate/compare/0.10.3...v0.10.4) (2021-09-29)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="0.10.3"></a>
+## [0.10.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.10.2...0.10.3) (2021-07-17)
+
+### Bump
+
+* Bump dns-packet from 1.3.1 to 1.3.4
+
+### Updated
+
+* Updated dependencies Changed enzyme adapter to work with React 17
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#16](https://github.com/darkmavis1980/react-jest-boilerplate/issues/16) from darkmavis1980/dependabot/npm_and_yarn/dns-packet-1.3.4
+
+
 <a name="v0.10.2"></a>
 ## [v0.10.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.10.1...v0.10.2) (2021-05-21)
 
