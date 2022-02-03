@@ -1,4 +1,20 @@
 
+<a name="v0.11.3"></a>
+## [v0.11.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.11.2...v0.11.3) (2022-02-03)
+
+### Fixed
+
+* Fixed audit errors
+
+### Updated
+
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#20](https://github.com/darkmavis1980/react-jest-boilerplate/issues/20) from darkmavis1980/bugfix/update-dependencies-feb-2022
+
+
 <a name="v0.11.2"></a>
 ## [v0.11.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.11.1...v0.11.2) (2022-02-03)
 
