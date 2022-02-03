@@ -1,4 +1,28 @@
 
+<a name="v0.11.2"></a>
+## [v0.11.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.11.1...v0.11.2) (2022-02-03)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.11.1"></a>
+## [v0.11.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.11.0...v0.11.1) (2021-12-10)
+
+### Fixed
+
+* Fixed issue with snapshot
+
+### Updated
+
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#19](https://github.com/darkmavis1980/react-jest-boilerplate/issues/19) from darkmavis1980/bugfix/update-dependencies-2
+
+
 <a name="v0.11.0"></a>
 ## [v0.11.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.10.5...v0.11.0) (2021-12-10)
 
