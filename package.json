@@ -1,6 +1,6 @@
 {
   "name": "react-boilerplate",
-  "version": "0.11.3",
+  "version": "0.11.4",
   "description": "Simple boilerplate for React with Jest support",
   "main": "index.js",
   "scripts": {
@@ -27,18 +27,18 @@
   "author": "Alessio Michelini",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.17.0",
-    "@babel/plugin-proposal-class-properties": "^7.16.7",
-    "@babel/plugin-transform-runtime": "^7.17.0",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
-    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.6.0",
+    "css-loader": "^6.7.1",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.2",
-    "eslint": "^8.8.0",
+    "eslint": "^8.16.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-react": "^7.28.0",
@@ -47,23 +47,23 @@
     "jest-cli": "^27.4.7",
     "jest-environment-jsdom": "^27.2.5",
     "jest-transform-stub": "^2.0.0",
-    "mini-css-extract-plugin": "^2.5.3",
+    "mini-css-extract-plugin": "^2.6.0",
     "react-test-renderer": "^17.0.2",
     "redux-mock-store": "^1.5.4",
-    "sass": "^1.49.7",
-    "sass-loader": "^12.2.0",
-    "style-loader": "^3.2.1",
-    "webpack": "^5.68.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
+    "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
-    "query-string": "^7.1.0",
+    "query-string": "^7.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^6.2.1",
-    "react-router-dom": "^6.2.1"
+    "react-router-dom": "^6.3.0"
   }
 }
