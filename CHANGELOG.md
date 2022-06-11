@@ -1,4 +1,87 @@
 
+<a name="v1.2.0"></a>
+## [v1.2.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.1.1...v1.2.0) (2022-06-11)
+
+### Added
+
+* Added example of how to use suspense
+
+### Updated
+
+* Updated  snapshots
+
+
+<a name="v1.1.1"></a>
+## [v1.1.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.1.0...v1.1.1) (2022-06-11)
+
+### Fixed
+
+* Fixed coverage
+
+
+<a name="v1.1.0"></a>
+## [v1.1.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.0.0...v1.1.0) (2022-06-11)
+
+### Added
+
+* Added support for JSX
+
+
+<a name="v1.0.0"></a>
+## [v1.0.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.11.4...v1.0.0) (2022-06-11)
+
+### Fixed
+
+* Fixed issue with workflow
+* Fixed typo
+
+### Set
+
+* Set major version
+
+### Updated
+
+* Updated workflow
+
+### Upgraded
+
+* Upgraded to React 18 Removed Enzyme in favour of react-test-renderer Updated tests Updated mount point for React Enabled Strictmode for React 18
+
+### Pull Requests
+
+* Merge pull request [#29](https://github.com/darkmavis1980/react-jest-boilerplate/issues/29) from darkmavis1980/bugfix/update-dependencies
+
+
+<a name="v0.11.4"></a>
+## [v0.11.4](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.12.0...v0.11.4) (2022-05-26)
+
+### Updated
+
+* Updated dependencies
+
+
+<a name="v0.12.0"></a>
+## [v0.12.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.11.3...v0.12.0) (2022-05-04)
+
+### Bump
+
+* Bump node-forge from 1.2.1 to 1.3.1
+* Bump minimist from 1.2.5 to 1.2.6
+* Bump follow-redirects from 1.14.7 to 1.14.8
+
+### Updated
+
+* Updated to react 18
+* Updated readme
+
+### Pull Requests
+
+* Merge pull request [#26](https://github.com/darkmavis1980/react-jest-boilerplate/issues/26) from darkmavis1980/dependabot/npm_and_yarn/node-forge-1.3.1
+* Merge pull request [#23](https://github.com/darkmavis1980/react-jest-boilerplate/issues/23) from darkmavis1980/dependabot/npm_and_yarn/follow-redirects-1.14.8
+* Merge pull request [#25](https://github.com/darkmavis1980/react-jest-boilerplate/issues/25) from darkmavis1980/dependabot/npm_and_yarn/minimist-1.2.6
+* Merge pull request [#22](https://github.com/darkmavis1980/react-jest-boilerplate/issues/22) from darkmavis1980/bugfix/fix-audit-errors
+
+
 <a name="v0.11.3"></a>
 ## [v0.11.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v0.11.2...v0.11.3) (2022-02-03)
 
