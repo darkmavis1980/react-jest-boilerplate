@@ -39,12 +39,22 @@ module.exports = {
   watchOptions: {
     poll: true
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+    symlinks: true
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)?$/,
         use: {
-          loader: "babel-loader"
+          loader: "babel-loader",
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react'
+            ]
+          }
         }
       },
       {
