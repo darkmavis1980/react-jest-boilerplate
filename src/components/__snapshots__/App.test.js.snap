@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`(Component) App match the snapshot 1`] = `
+exports[`(Component) App should match the snapshot 1`] = `
 <div
   className="app"
 >

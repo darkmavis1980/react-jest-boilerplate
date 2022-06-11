@@ -4,18 +4,18 @@
 
 This is a very basic boilerplate with support for:
 
-* React 17
+* React 18
 * React Router
-* Jest & Enzyme (unit tests)
+* Jest & React Test Renderer (unit tests)
 * Webpack 5 (module bundler)
 * Babel 7+
 * ESLint with Airbnb standards
 
-### Install it
+## Install it
 
 Just run `npm install` to install the dependencies.
 
-### Run it
+## Run it
 
 For active development you should run it with the following commands:
 
@@ -27,7 +27,7 @@ npm run dev
 npm run start
 ```
 
-### Run the unit tests
+## Run the unit tests
 
 This repository comes with Jest unit testing library with Enzyme, for React support, it also includes coverage report with Instanbul that can be found in the `coverage` folder.
 
@@ -44,7 +44,7 @@ npm test
 npm run coverage
 ```
 
-### Create the build
+## Create the build
 
 Running the following command:
 
@@ -54,7 +54,7 @@ npm build
 
 It will generate the `dist` folder with the minified code and vendor packages.
 
-### Configuration
+## Configuration
 
 In case you need to store an endpoint for your APIs, you can either copy and rename the `config/config.sample.js` file into `config/config.js` and then import that in the React. Otherwise you can use the environmental variable `API_PATH` and read it with `process.env.API_PATH` and then use that instead (this variable is passed by Webpack when it builds the code). To do so you might want to change your npm scripts to include that at least for local development, so for example:
 
