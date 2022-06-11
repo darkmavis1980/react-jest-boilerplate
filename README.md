@@ -119,7 +119,7 @@ Stop the container:
 docker stop react
 ```
 
-#### Good to know
+### Good to know
 
 Get the list of the containers:
 
