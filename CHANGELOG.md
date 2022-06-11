@@ -1,4 +1,23 @@
 
+<a name="v1.2.1"></a>
+## [v1.2.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.2.0...v1.2.1) (2022-06-11)
+
+### Minor
+
+* Minor cleanups Updated eslint configuration Added loading component
+
+### Updated
+
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#33](https://github.com/darkmavis1980/react-jest-boilerplate/issues/33) from darkmavis1980/feature/add-suspense-example
+* Merge pull request [#32](https://github.com/darkmavis1980/react-jest-boilerplate/issues/32) from darkmavis1980/bugfix/fix-coverage
+* Merge pull request [#31](https://github.com/darkmavis1980/react-jest-boilerplate/issues/31) from darkmavis1980/feature/add-jsx-support
+* Merge pull request [#30](https://github.com/darkmavis1980/react-jest-boilerplate/issues/30) from darkmavis1980/feature/deprecate-enzyme
+
+
 <a name="v1.2.0"></a>
 ## [v1.2.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.1.1...v1.2.0) (2022-06-11)
 
