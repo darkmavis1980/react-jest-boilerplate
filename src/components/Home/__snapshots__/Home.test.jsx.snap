@@ -5,5 +5,8 @@ exports[`Home (Component) should match the snapshot 1`] = `
   <h1>
     Hello World
   </h1>
+  <p>
+    Loading...
+  </p>
 </div>
 `;
