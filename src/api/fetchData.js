@@ -7,7 +7,7 @@ import wrapPromise from './wrapPromise';
  * @returns {Promise} A wrapped promise
  */
 function fetchData(url) {
-  const promise = axios.get(url).then(res => res.data);
+  const promise = axios.get(url).then(({data}) => data);
 
   return wrapPromise(promise);
 }

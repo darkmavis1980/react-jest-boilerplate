@@ -1,19 +1,17 @@
 import React from 'react';
-import TestRenderer from 'react-test-renderer';
+import { create } from 'react-test-renderer';
 import Home from './Home';
 
-const wrapper = TestRenderer.create(<Home />);
-const instance = wrapper.root;
-
 describe('Home (Component)', () => {
-  it('should match the snapshot', () => {
-    const tree = renderer
-      .create(<Home />)
+  it('should match the snapshot', async () => {
+    const tree = await create(<Home />)
       .toJSON();
     expect(tree).toMatchSnapshot();
-  })
+  });
 
-  it('should render the hello world title', () => {
+  it('should render the hello world title', async () => {
+    const wrapper = await create(<Home />);
+    const instance = wrapper.root;
     expect(instance.findByType('h1').children).toContain('Hello World');
   });
 });

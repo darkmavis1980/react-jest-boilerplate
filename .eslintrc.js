@@ -15,6 +15,7 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'max-len': [1, 200],
     'no-console': 1,
+    'no-undef': 1,
     'new-cap': 0,
     'comma-dangle': 0,
     'object-curly-spacing': 0,
@@ -33,14 +34,9 @@ module.exports = {
   globals: {
     window: true,
     document: true,
-    jQuery: false,
-    $: false,
-    moment: false,
     location: true,
-    _: false,
-    MODULE_MAP: true,
-    System: false,
-    T: true,
-    localStorage: true
+    describe: true,
+    it: true,
+    expect: true,
   }
 };
