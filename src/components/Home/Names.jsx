@@ -9,17 +9,15 @@ const Names = () => {
 
   return (
     <div>
-      <div>
-        <h2>List of names</h2>
-        <Suspense fallback={<Loading />}>
-          <ul>
-            {photos.map(item => (
-              <li key={item.id}>
-                {item.name}
-              </li>))}
-          </ul>
-        </Suspense>
-      </div>
+      <h2>List of names</h2>
+      <Suspense fallback={<Loading />}>
+        <ul>
+          {photos.map(item => (
+            <li key={item.id}>
+              {item.name}
+            </li>))}
+        </ul>
+      </Suspense>
     </div>
   );
 };
