@@ -211,6 +211,12 @@ server {
 </VirtualHost>
 ```
 
+## Notes
+
+### Why ErrorBoundary is a class component?
+
+The answer is that React doesn't allow that, you can read more [here](https://stackoverflow.com/questions/48482619/how-can-i-make-use-of-error-boundaries-in-functional-react-components).
+
 ## Changelog
 
 The changelog is maintained with this library: [git-chglog](https://github.com/git-chglog/git-chglog)
