@@ -1,4 +1,48 @@
 
+<a name="v1.3.0"></a>
+## [v1.3.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.2.3...v1.3.0) (2022-06-14)
+
+### Added
+
+* Added error boundary
+
+### Removed
+
+* Removed build status as TravisCI is no longer used
+
+### Updated
+
+* Updated docs
+
+
+<a name="v1.2.3"></a>
+## [v1.2.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.2.2...v1.2.3) (2022-06-13)
+
+### Fixed
+
+* Fixed typo
+
+### Pull Requests
+
+* Merge pull request [#35](https://github.com/darkmavis1980/react-jest-boilerplate/issues/35) from darkmavis1980/bugfix/component-has-too-divs
+
+
+<a name="v1.2.2"></a>
+## [v1.2.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.2.1...v1.2.2) (2022-06-13)
+
+### Fixed
+
+* Fixed typo in component Updated dependencies
+
+### Updated
+
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#34](https://github.com/darkmavis1980/react-jest-boilerplate/issues/34) from darkmavis1980/bugfix/minor-cleanups
+
+
 <a name="v1.2.1"></a>
 ## [v1.2.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.2.0...v1.2.1) (2022-06-11)
 
