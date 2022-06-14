@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/darkmavis1980/react-jest-boilerplate.svg?branch=master)](https://travis-ci.org/darkmavis1980/react-jest-boilerplate)
-
 # Simple boilerplate with React, Webpack, Jest and Sass support
 
 This is a very basic boilerplate with support for:
@@ -210,6 +208,12 @@ server {
   </Directory>
 </VirtualHost>
 ```
+
+## Notes
+
+### Why ErrorBoundary is a class component?
+
+The answer is that React doesn't allow that, you can read more [here](https://stackoverflow.com/questions/48482619/how-can-i-make-use-of-error-boundaries-in-functional-react-components).
 
 ## Changelog
 
