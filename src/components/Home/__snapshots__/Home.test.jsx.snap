@@ -8,5 +8,9 @@ exports[`Home (Component) should match the snapshot 1`] = `
   <p>
     Loading...
   </p>
+  <hr />
+  <p>
+    Loading...
+  </p>
 </div>
 `;

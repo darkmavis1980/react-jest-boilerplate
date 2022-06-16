@@ -1,4 +1,24 @@
 
+<a name="v1.4.0"></a>
+## [v1.4.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.3.0...v1.4.0) (2022-06-15)
+
+### Added
+
+* Added example using SWR to fetch data
+
+### Updated
+
+* Updated dependencies Updated snapshots
+* Updated component
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#38](https://github.com/darkmavis1980/react-jest-boilerplate/issues/38) from darkmavis1980/feature/add-error-boundary
+* Merge pull request [#37](https://github.com/darkmavis1980/react-jest-boilerplate/issues/37) from darkmavis1980/bugfix/update-version
+* Merge pull request [#36](https://github.com/darkmavis1980/react-jest-boilerplate/issues/36) from darkmavis1980/bugfix/fix-typo
+
+
 <a name="v1.3.0"></a>
 ## [v1.3.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.2.3...v1.3.0) (2022-06-14)
 
