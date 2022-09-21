@@ -1,4 +1,18 @@
 
+<a name="v1.4.1"></a>
+## [v1.4.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.4.0...v1.4.1) (2022-09-21)
+
+### Updated
+
+* Updated jest
+* Updated dependencies
+* Updated changelog
+
+### Pull Requests
+
+* Merge pull request [#39](https://github.com/darkmavis1980/react-jest-boilerplate/issues/39) from darkmavis1980/feature/use-swr-hook
+
+
 <a name="v1.4.0"></a>
 ## [v1.4.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.3.0...v1.4.0) (2022-06-15)
 
