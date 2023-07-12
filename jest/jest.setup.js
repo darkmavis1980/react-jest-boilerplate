@@ -3,5 +3,5 @@ import renderer from 'react-test-renderer';
 
 global.renderer = renderer;
 global.jsdom = jsdom;
-global.location = {};
-global.document = {};
+// global.location = {};
+// global.document = {};

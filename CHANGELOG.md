@@ -1,9 +1,77 @@
 
+<a name="v1.5.3"></a>
+## [v1.5.3](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.5.2...v1.5.3) (2023-07-12)
+
+### Update
+
+* Update dependencies
+
+### Pull Requests
+
+* Merge pull request [#49](https://github.com/darkmavis1980/react-jest-boilerplate/issues/49) from darkmavis1980/bugfix/update-dependencies
+
+
+<a name="v1.5.2"></a>
+## [v1.5.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.5.1...v1.5.2) (2023-04-15)
+
+### Updated
+
+* Updated dependencies
+
+### Pull Requests
+
+* Merge pull request [#48](https://github.com/darkmavis1980/react-jest-boilerplate/issues/48) from darkmavis1980/bugfix/maintenance-update
+
+
+<a name="v1.5.1"></a>
+## [v1.5.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.5.0...v1.5.1) (2023-03-17)
+
+### Updated
+
+* Updated dependencies
+
+### Pull Requests
+
+* Merge pull request [#46](https://github.com/darkmavis1980/react-jest-boilerplate/issues/46) from darkmavis1980/feature/upgrade-to-swr-2
+
+
+<a name="v1.5.0"></a>
+## [v1.5.0](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.4.2...v1.5.0) (2023-01-01)
+
+### Updated
+
+* Updated all dependencies Updated SWR to version 2
+
+### Pull Requests
+
+* Merge pull request [#45](https://github.com/darkmavis1980/react-jest-boilerplate/issues/45) from darkmavis1980/bugfix/maintenance
+
+
+<a name="v1.4.2"></a>
+## [v1.4.2](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.4.1...v1.4.2) (2022-12-08)
+
+### Bump
+
+* Bump decode-uri-component from 0.2.0 to 0.2.2
+* Bump loader-utils from 2.0.2 to 2.0.4
+
+### Updated
+
+* Updated dependencies Fixed issue with window object and Jest
+
+### Pull Requests
+
+* Merge pull request [#43](https://github.com/darkmavis1980/react-jest-boilerplate/issues/43) from darkmavis1980/dependabot/npm_and_yarn/loader-utils-2.0.4
+* Merge pull request [#44](https://github.com/darkmavis1980/react-jest-boilerplate/issues/44) from darkmavis1980/dependabot/npm_and_yarn/decode-uri-component-0.2.2
+* Merge pull request [#41](https://github.com/darkmavis1980/react-jest-boilerplate/issues/41) from darkmavis1980/bugfix/maintenance-update
+
+
 <a name="v1.4.1"></a>
 ## [v1.4.1](https://github.com/darkmavis1980/react-jest-boilerplate/compare/v1.4.0...v1.4.1) (2022-09-21)
 
 ### Updated
 
+* Updated changelog
 * Updated jest
 * Updated dependencies
 * Updated changelog
