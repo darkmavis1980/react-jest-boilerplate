@@ -217,4 +217,9 @@ The answer is that React doesn't allow that, you can read more [here](https://st
 
 ## Changelog
 
-The changelog is maintained with this library: [git-chglog](https://github.com/git-chglog/git-chglog)
+The changelog is maintained with this library: [git-chglog](https://github.com/git-chglog/git-chglog).
+Once installed, please run the following command:
+
+```sh
+git-chglog -o CHANGELOG.md
+```
